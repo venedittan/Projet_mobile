@@ -1,0 +1,53 @@
+
+<ion-header>
+
+    <ion-navbar class="text-center" color="dark">
+        <ion-title> 支払い</ion-title>
+
+        <ion-buttons end>
+            <button ion-button icon-left (click)="addAddress()">
+                <ion-icon name="ios-create"></ion-icon>
+            </button>
+        </ion-buttons>
+
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+        <ion-item class="text-center">
+            <ion-label>Paiement</ion-label>
+        </ion-item>
+
+
+    <ion-list radio-group [(ngModel)]="payment_mode">
+        <ion-item-divider color="light">Mode de paiement</ion-item-divider>
+        <ion-item>
+            <ion-label>Carte de paiement - Bleue/Visa</ion-label>
+            <ion-radio checked="true" value="cod"></ion-radio>
+        </ion-item>
+    </ion-list>
+
+
+    <ion-list radio-group  [(ngModel)]="delivery_details">
+        <ion-item-divider color="light">Détails du livraison</ion-item-divider>
+        <ion-item-sliding *ngFor="let address of addresses | async">
+                <ion-item>
+                    <ion-label>  
+                     <h2> <b>{{address.nickname}} :</b></h2>
+                        <h3>{{address.address}} :</h3>
+                        <p>Code Postal : {{address.pincode}} </p>
+                        <p>Tel  : {{address.phone}} </p>
+                    </ion-label>
+                    <ion-radio value="{{ 'nickname' + address.nickname  + ' address ' + address.address + ' Pin: ' + address.pincode + ' Phone : ' + address.phone}}"></ion-radio>
+                </ion-item>
+
+            </ion-item-sliding>
+            </ion-list>
+
+    <button ion-button icon-left block color="secondary" (click)="pay()">
+            Effectuez paiement (€ euro)
+    </button>
+
+</ion-content>

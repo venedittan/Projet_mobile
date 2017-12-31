@@ -1,0 +1,52 @@
+page-login {
+
+    .toolbar1{
+        padding: 0px;
+        min-height: 0px;
+    }
+
+    .text-center{
+        text-align: center
+    }
+
+    .bg-image{
+        background-image: url('../assets/imgs/login-img7.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .logo{
+       display: block;
+       margin: auto;
+       width: 90%;
+       margin-top: 2vh;  
+             
+    }
+
+    .item{
+        background-color: rgba(255, 255, 255, 0.0)
+    }
+
+    .list{
+        width: 50%;
+        position: absolute;
+        right: 100px;
+        margin: auto;
+    }    
+    
+  
+    .item2{
+        margin-bottom: 2vh; 
+    }
+
+    .image1 {
+        img {
+        height: 70vh !important;
+        width: auto !important;
+        align-items: center;
+        }
+        }
+    
+}
+

@@ -1,0 +1,50 @@
+<ion-header >
+
+  <ion-navbar class="text-center" color="dark">
+    <ion-title> リスト</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="bg-style">
+    <ion-item class="text-center">
+        <ion-label color="primary">Liste des articles choisis</ion-label>
+      </ion-item>
+       <ion-item  *ngFor="let item of cart | async">
+
+            <ion-grid>
+                <div class="text3-center">
+                <ion-row>
+                    <h2>{{item.name}}</h2>
+                  </ion-row>
+                </div>
+            <ion-row>  
+                <ion-col>      
+                    <div class="image">      
+                    <img src="{{item.image}}">
+                  </div>
+                </ion-col>
+                  <ion-col>
+            <button ion-button class="aaa" color="dark" item-right (click)="decrement(item)" >-1</button>
+            <button ion-button  class="aaa"color="dark" item-right (click)="increment(item)">+1</button>
+            <button ion-button class="aaa"  color="danger" item-right (click)="remove(item)">X</button>
+            <div class="text3-center">    
+                <h3>${{item.price}} x {{item.quantity}} = ${{item.price * item.quantity}}</h3>
+              </div>       
+          </ion-col>
+        </ion-row>  
+        </ion-grid>
+
+        <ion-item *ngIf="(cart | async)?.length" >
+            <h2>Prix total:</h2> 
+            <h2 item-right >{{cartService.cartAmount}} €</h2>
+        </ion-item>
+          
+        <ion-item *ngIf="!(cart | async)?.length" >
+          <h2 class="center">Aucun produit sélectionné</h2>       
+        </ion-item> 
+      </ion-item> 
+      <button  fixed ion-button icon-start block color="light" *ngIf="(cart | async)?.length" (click)="checkout()">
+          <ion-icon name="ios-cart"></ion-icon>Validation</button>   
+    </ion-content>

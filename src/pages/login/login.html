@@ -1,0 +1,32 @@
+ <ion-header>
+  <ion-navbar class="toolbar1" color="dark">
+    <ion-title class="text-center">どうぞお入りください</ion-title>
+  </ion-navbar>
+</ion-header> 
+
+
+
+<ion-content  class="bg-image">
+    <img src="assets/imgs/logo-6.png" alt="logo" class="logo" />
+            <ion-list inset class="list">
+              <ion-item class="item">
+                <ion-label color="blanche" style="font-size:16px" name="email" required stacked>Email</ion-label>
+                <ion-input [(ngModel)]="email" type="text"  placeholder="Entrez votre mail"></ion-input>
+              </ion-item>             
+
+              <ion-item class="item">
+                <ion-label color="blanche" style="font-size:16px" name="password" required stacked>Mot de passe</ion-label>
+                <ion-input  [(ngModel)]="password" type="password" placeholder="Entrez password"></ion-input>
+              </ion-item>         
+            </ion-list>
+    <img src="assets/imgs/image-1.png" alt="image" class="image1" />
+  </ion-content>
+
+  <ion-footer no-shadow>
+        <button ion-button color="dark" full (click)="login()" stacked >Connexion</button>
+        <button ion-button color="orange" full (click)="createAccount()" stacked >Inscription</button>
+        <button ion-button color="blanche" style="font-size:10px" full clear (click)="resetPassword()" stacked >Mot de passe oublié</button>
+  </ion-footer>
+
+
+

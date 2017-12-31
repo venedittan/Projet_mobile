@@ -1,0 +1,34 @@
+
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title class="text-center"><ion-icon name="ios-book-outline"></ion-icon>
+      説明</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="bg-style"  >
+
+    <ion-item class="text-center">
+    <ion-title> Détail du produit</ion-title>
+  </ion-item>
+    <ion-card *ngIf='product'>
+      <ion-card-header>  
+        <img src={{product.image}}/>
+      </ion-card-header>
+
+
+      <ion-card-content>
+        <h2> <b>{{product.name}} </b> </h2>
+        <p> {{product.description}} </p>
+      </ion-card-content>
+    </ion-card>
+
+    
+    <ion-fab right top fab-size (click)="addToCart(product)">
+      <button ion-fab color="dark"><ion-icon name="ios-checkmark" ></ion-icon></button>
+    </ion-fab>
+
+</ion-content>

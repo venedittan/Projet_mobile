@@ -1,0 +1,32 @@
+page-products {
+
+    .text-center{
+        text-align: center;
+        font-Weight: Bold;
+        font-size: 20px
+    }
+    .text2-center{
+        text-align: center;
+        font-size: 12px;
+        font-Weight: Bold
+    }   
+    .text3-center{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        font-Weight: Bold
+    }
+
+    .bg5-image{
+        width: 7%;
+        height: 7%;
+    }
+
+    .image {
+       border: 5px solid #fff;
+       box-shadow: 0 0 10px gray;
+       display: inline-block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}

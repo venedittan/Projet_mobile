@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar class="toolbar1" color="dark">
+      <ion-title class="text-center">お疲れ様でした</ion-title>
+    </ion-navbar>
+  </ion-header> 
+ 
+  <ion-content  class="bg2-image">
+              <form (ngSubmit)="register()" #registerForm="ngForm">
+                  <ion-row>
+                    <ion-col>
+                      <ion-list inset>
+                        
+                        <ion-item class="text-bloc"> 
+                          <ion-input [(ngModel)]="email" type="text" placeholder="Email" name="email"required stacked></ion-input>
+                        </ion-item>
+                        
+                        <ion-item class="text-bloc">
+                          <ion-input [(ngModel)]="password" type="password" placeholder="Password" name="password"  required stacked></ion-input>
+                        </ion-item>
+                        
+                      </ion-list>
+                    </ion-col>
+                  </ion-row>
+                  
+                  <ion-row>
+                    <ion-col class="signup-col">
+                      <button color="dark" ion-button class="submit-btn" full type="submit" >S'enregistrer</button>
+                    </ion-col>
+                  </ion-row>
+                  
+                </form>
+    </ion-content>
+

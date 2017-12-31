@@ -1,0 +1,38 @@
+<ion-header>
+
+  <ion-navbar  color="dark">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title class="text-center" ><ion-icon name="ion-earth"></ion-icon>配達 | 速達</ion-title>
+    
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content   class="bg-style" >
+    <ion-list>
+        <ion-item class="text-center">
+        <ion-title>Liste des commandes :</ion-title>
+      </ion-item>
+    
+      <ion-item >
+      <ion-item *ngFor="let order of orders | async" >
+
+        <div class="text-center">
+        <h2>{{order.name}}</h2>
+          <ion-badge color="danger"> Prix {{order.price}} €</ion-badge> x <ion-badge color="dark">{{order.quantity}}</ion-badge> 
+        </div>
+        <br><br>
+            <img  class="middle-image" src="assets/imgs/chemin.png"/>
+        </ion-item>
+      </ion-item>
+    </ion-list>
+
+</ion-content>
+<ion-footer>
+    <ion-item >
+      <img  class="footer-image" src="assets/imgs/commande-image.png"/>
+    </ion-item>
+  </ion-footer>
