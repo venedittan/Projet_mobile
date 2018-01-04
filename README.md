@@ -1,21 +1,23 @@
 ## Projet Mobile
 
-
 ### Réalisée par Vinoth VENEDITTAN et Merwan BOUALI
-##### Page principale
-###### La page principale !
+
+---------------------------------------------------------------
+
+# Page principale
+## La page principale !
 ![](https://image.ibb.co/hVwxzw/Whats_App_Image_2018_01_04_at_11_39_39_11.jpg)
 
-La page d'inscription.
+## La page d'inscription.
 ![](https://image.ibb.co/bAJAKw/Whats_App_Image_2018_01_04_at_11_39_39_10.jpg)
 
-Il est possible de récupérer/changer votre mot de passe en entrant votre identifiant (l'adresse mail d'inscription)
+## Il est possible de récupérer/changer votre mot de passe en entrant votre identifiant (l'adresse mail d'inscription)
 ![](https://image.ibb.co/cmZ6sG/Whats_App_Image_2018_01_04_at_11_39_39_9.jpg)
 
-Pour accéder au menu (liste des produits, commandes ou bien vous déconnectez) appuyez en haut à gauche.
+## Pour accéder au menu (liste des produits, commandes ou bien vous déconnectez) appuyez en haut à gauche.
 ![](https://image.ibb.co/jKV1Rb/Whats_App_Image_2018_01_04_at_11_39_39.jpg)
 
-#### Achat des produits
+# Achat des produits
 Pour ajouter un produit, vous devez cliquer sur ajouter puis les produits que vous aimez seront ajouter (le petit cœur en haut à droite va s'incrémenter pour chaque article choisis) 
 ![](https://image.ibb.co/hd90Kw/Whats_App_Image_2018_01_04_at_11_39_39_6.jpg)
 Si vous voulez découvrir un produit, il est possible d'en apprendre un peu plus en appuyant sur l'image du produit qui va vous amenez vers le détail du produit, le petit rond noir en haut à droite permet d'ajouter lui aussi le produit si vous avez l'avez aimé et ajouté dans votre liste des achats !
@@ -26,7 +28,7 @@ Si vous n'êtes pas intéressé, vous pouvez revenir en arrière.
 
 
 
-#### Modification de l’achat des produits
+# Modification de l’achat des produits
 Supposons qu'un client voudrait modifier son achat par exemple en achetant plusieurs quantités d'un même produit, il est possible d'augmenter le quota max ! C'est simple ! Il faut appuyer sur le bouton +1 ou -1 (pour augmenter ou diminuer) 
 Il est possible de supprimer des articles sélectionnés parmi la liste des produits, pour cela il suffit d'appuyer sur la croix (bouton rouge). 
 1) ![](https://image.ibb.co/bx62XG/Whats_App_Image_2018_01_04_at_11_39_39_5.jpg)
@@ -34,7 +36,7 @@ Il est possible de supprimer des articles sélectionnés parmi la liste des prod
 3) ![](https://image.ibb.co/dipd6b/Whats_App_Image_2018_01_04_at_11_39_39_4.jpg)
 
 
-#### Gestion des livraisons
+# Gestion des livraisons
 La listes de commande qui seront traité et envoyé.
 ![](https://image.ibb.co/dRxbsG/Whats_App_Image_2018_01_04_at_11_39_39_1.jpg)
 Sur le coin en haut à droite vous devez créer une adresse de livraison (il est possible d'en créer plusieurs), ensuite choisir parmi les adresses créer celle que vous désirez.
