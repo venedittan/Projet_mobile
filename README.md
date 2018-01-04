@@ -4,7 +4,7 @@
 ### Réalisée par Vinoth VENEDITTAN et Merwan BOUALI
 #### Page principale
 La page principale !
-![](https://image.ibb.co/hVwxzw/Whats_App_Image_2018_01_04_at_11_39_39_11.jpg = 426x240 )
+![](https://image.ibb.co/hVwxzw/Whats_App_Image_2018_01_04_at_11_39_39_11.jpg | width=48)
 
 La page d'inscription.
 ![](https://image.ibb.co/bAJAKw/Whats_App_Image_2018_01_04_at_11_39_39_10.jpg)
