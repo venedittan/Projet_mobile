@@ -3,7 +3,7 @@
 
 ### Réalisée par Vinoth VENEDITTAN et Merwan BOUALI
 #### Page principale
-La page principale !
+>La page principale !
 ![](https://image.ibb.co/hVwxzw/Whats_App_Image_2018_01_04_at_11_39_39_11.jpg)
 
 La page d'inscription.
