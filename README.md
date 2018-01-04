@@ -44,9 +44,9 @@ Si vous n'êtes pas intéressé, vous pouvez revenir en arrière.
 >Supposons qu'un client voudrait modifier son achat par exemple en achetant plusieurs quantités d'un même produit, il est possible d'augmenter le quota max ! C'est simple ! Il faut appuyer sur le bouton +1 ou -1 (pour augmenter ou diminuer) 
 >Il est possible de supprimer des articles sélectionnés parmi la liste des produits, pour cela il suffit d'appuyer sur la croix (bouton rouge). 
 
-![](https://image.ibb.co/bx62XG/Whats_App_Image_2018_01_04_at_11_39_39_5.jpg)
-![](https://image.ibb.co/bx62XG/Whats_App_Image_2018_01_04_at_11_39_39_5.jpg)
-![](https://image.ibb.co/dipd6b/Whats_App_Image_2018_01_04_at_11_39_39_4.jpg)
+> ![](https://image.ibb.co/bx62XG/Whats_App_Image_2018_01_04_at_11_39_39_5.jpg)
+> ![](https://image.ibb.co/bx62XG/Whats_App_Image_2018_01_04_at_11_39_39_5.jpg)
+> ![](https://image.ibb.co/dipd6b/Whats_App_Image_2018_01_04_at_11_39_39_4.jpg)
 
 
 #### IV - Gestion des livraisons
