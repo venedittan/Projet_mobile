@@ -6,7 +6,9 @@
 
 # Page principale
  
-![](https://image.ibb.co/hVwxzw/Whats_App_Image_2018_01_04_at_11_39_39_11.jpg "La page principale !")
+![](https://image.ibb.co/hVwxzw/Whats_App_Image_2018_01_04_at_11_39_39_11.jpg)
+(https://image.ibb.co/hVwxzw/Whats_App_Image_2018_01_04_at_11_39_39_11.jpg "La page principale !")
+
 
 ## La page d'inscription.
 ![](https://image.ibb.co/bAJAKw/Whats_App_Image_2018_01_04_at_11_39_39_10.jpg)
